@@ -88,7 +88,7 @@
                    (not (equal data (aref args 1))))
           (error "%% and %%1 are mutually exclusive"))
         (aset args pos data))))
-   ((and (not (eq (car-safe data) '##))
+   ((and (not (eq (car-safe data) 'l))
          (or (listp data)
              (vectorp data)))
     (seq-doseq (elt data)
