@@ -51,7 +51,6 @@
 
 ;;; Code:
 
-(eval-when-compile (require 'cl-lib))
 (require 'seq)
 
 ;;;###autoload
@@ -67,7 +66,7 @@
     (l--collect data args)
     `(,@(let ((n 0))
           (mapcar (lambda (symbol)
-                    (cl-incf n)
+                    (setq n (1+ n))
                     (or symbol (intern (format "_%%%s" n))))
                   (reverse (seq-drop-while
                             'null
