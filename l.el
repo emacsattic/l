@@ -1,4 +1,4 @@
-;;; l.el --- Compact syntax for short lambda       -*- lexical-binding: t -*-
+;;; l.el --- Compact syntax for short lambda  -*- lexical-binding:t -*-
 
 ;; Copyright (C) 2021-2022 Jonas Bernoulli
 
