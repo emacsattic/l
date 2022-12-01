@@ -1,3 +1,12 @@
+**DEPRECATED** Actually this was the second *variant* of the second attempt.
+Originally I named the macro `f` and quite liked it because the terminal of `f`
+connects nicely with the quote: `f'something`.  Unfortunately I could not use
+that name because I was told that as a deputy maintainer of Melpa, I should lead
+by example and not use a name that conflicts with an existing package.  (Was
+planning to ask the maintainer of `f` to donate the symbol `f`.)  `l'something`
+is visually much less appealing so I went back to the drawing board and
+ultimately decided, that my original approach was best after all.
+
 Compact syntax for short lambda.
 
 After [llama], this is my second attempt at providing such syntax

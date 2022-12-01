@@ -1,4 +1,4 @@
-;;; l.el --- Compact syntax for short lambda  -*- lexical-binding:t -*-
+;;; l.el --- [DEPRECATED] Compact syntax for short lambda  -*- lexical-binding:t -*-
 
 ;; Copyright (C) 2021-2022 Jonas Bernoulli
 
@@ -24,6 +24,9 @@
 ;; along with this file.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
+
+;; [DEPREATED] This library is deprecated in favor of my earlier
+;;             attempt, `llama' (https://git.sr.ht/~tarsius/llama).
 
 ;; Compact syntax for short lambda.
 
